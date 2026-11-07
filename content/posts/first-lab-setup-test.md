@@ -2,32 +2,7 @@
 date = '2026-11-06T18:09:09-06:00'
 draft = false
 title = 'Setting Up My Homelab: VirtualBox, Kali, and Metasploitable'
-theme = 'PaperMod'
-paginate = 10
-
-[params]
-  description = "A diary of my homelab and cybersecurity learning"
-  defaultTheme = "auto"
-  ShowReadingTime = true
-  ShowPostNavLinks = true
-  ShowBreadCrumbs = true
-  ShowCodeCopyButton = true
-
-  [params.homeInfoParams]
-    Title = "Welcome to my Homelab Journey"
-    Content = "I'm documenting my start in homelabbing: VirtualBox, Kali, Metasploitable, and everything I break along the way."
-
-[[menu.main]]
-  identifier = "posts"
-  name = "Posts"
-  url = "/posts/"
-  weight = 10
-
-[[menu.main]]
-  identifier = "tags"
-  name = "Tags"
-  url = "/tags/"
-  weight = 20
+tags = ['virtualbox', 'kali', 'metasploitable']
 +++
 
 

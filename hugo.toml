@@ -1,4 +1,31 @@
-baseURL = 'https://ItsMichael-714.github.io'
-languageCode = 'en-us'
+baseURL = 'https://itsmichael-714.github.io/'
+locale = 'en-us'
 title = 'My Homelab Journey'
 theme = 'PaperMod'
+
+[pagination]
+  pagerSize = 10
+
+[params]
+  description = "A diary of my homelab and cybersecurity learning"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButton = true
+
+  [params.homeInfoParams]
+    Title = "Welcome to my Homelab Journey"
+    Content = "I'm documenting my start in homelabbing: VirtualBox, Kali, Metasploitable, and everything I break along the way."
+
+[[menus.main]]
+  identifier = "posts"
+  name = "Posts"
+  url = "/posts/"
+  weight = 10
+
+[[menus.main]]
+  identifier = "tags"
+  name = "Tags"
+  url = "/tags/"
+  weight = 20
