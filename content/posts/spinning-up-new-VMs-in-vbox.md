@@ -1,9 +1,9 @@
-+++
+---
 title: "Building My First Cybersecurity Home Lab (and Breaking It a Few Times)"
 date: 2026-11-08
 draft: false
 tags: ["homelab", "cybersecurity", "virtualbox", "kali-linux", "ubuntu"]
-+++
+---
 
 I had an old PC running Ubuntu and doing nothing. This is the story of turning it into my first cybersecurity home lab, including everything that went wrong.
 
