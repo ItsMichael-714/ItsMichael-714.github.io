@@ -16,7 +16,7 @@ theme = 'PaperMod'
 
   [params.homeInfoParams]
     Title = "Welcome to my Homelab Journey"
-    Content = "I'm documenting my start in homelabbing: VirtualBox, Kali, Metasploitable, and everything I break along the way."
+    Content = "I'm documenting my start in homelabbing and everything I break along the way."
 
 [[menus.main]]
   identifier = "posts"
